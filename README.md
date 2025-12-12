@@ -39,8 +39,6 @@ This project allows users to register, log in, view the menu, and place orders o
 ---
 
 ## 🗄️ Database: `southern_foods`
-
-**Users table**  
 ```sql
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
@@ -48,6 +46,7 @@ CREATE TABLE users (
     email VARCHAR(100) NOT NULL UNIQUE,
     password VARCHAR(255) NOT NULL
 );
+
 CREATE TABLE orders (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL,
@@ -58,11 +57,12 @@ CREATE TABLE orders (
     order_details TEXT NOT NULL,
     order_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+```
 ---
-📌 License
+## 📌 License
 This project is open-source and free to use.
 
-🌟 Author
+## 🌟 Author
 
 Vihanga Nimnada
 GitHub: https://github.com/vihanga05299
