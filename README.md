@@ -40,6 +40,7 @@ This project allows users to register, log in, view the menu, and place orders o
 
 ## 🗄️ Database : southern_foods
 -- Users table
+
 CREATE TABLE users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL,
@@ -48,6 +49,7 @@ CREATE TABLE users (
 );
 
 -- Orders table
+
 CREATE TABLE orders (
     id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(50) NOT NULL,
@@ -71,5 +73,5 @@ GitHub: https://github.com/vihanga05299
 
 LinkedIn: www.linkedin.com/in/vihanga-nimnada-985696335
 
-## 📂 Project Structure
+
 
